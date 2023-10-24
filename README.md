@@ -6,11 +6,9 @@
 
 ### Prize Pool
 
-- 2x XP/Finding!
-- High - 200xp
-- Medium - 40xp
-- Low - 4xp
-- Gas - 2xp
+- High - 100xp
+- Medium - 20xp
+- Low - 2xp
 
 - Starts: 00:00 UTC Wednesday, Oct 25 2023
 - Ends: 00:00 UTC Wednesday, Nov 01 2023
