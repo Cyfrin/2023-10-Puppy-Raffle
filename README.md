@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./images/puppy-raffle.svg" width="400" alt="puppy-raffle">
+<img src="https://res.cloudinary.com/droqoz7lg/image/upload/v1698085051/company/tdkz9rzok2ttktqyhakk.svg" width="400" alt="puppy-raffle">
 <br/>
 
 # Contest Details
