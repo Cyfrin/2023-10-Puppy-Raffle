@@ -57,8 +57,8 @@ This project is to enter a raffle to win a cute dog NFT. The protocol should do 
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/4-puppy-raffle-audit
-cd 4-puppy-raffle-audit
+git clone https://github.com/Cyfrin/2023-10-Puppy-Raffle
+cd 2023-10-Puppy-Raffle
 make
 ```
 
