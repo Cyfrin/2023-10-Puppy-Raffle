@@ -10,8 +10,8 @@
 - Medium - 20xp
 - Low - 2xp
 
-- Starts: 00:00 UTC Wednesday, Oct 25 2023
-- Ends: 00:00 UTC Wednesday, Nov 01 2023
+- Starts: Noon UTC Wednesday, Oct 25 2023
+- Ends: Noon UTC Wednesday, Nov 01 2023
 
 ## Stats
 
