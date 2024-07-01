@@ -1,6 +1,22 @@
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/v1698085051/company/tdkz9rzok2ttktqyhakk.svg" width="400" alt="puppy-raffle">
-<br/>
+# First Flight #2: Puppy Raffle
+
+- [Contest Details](#contest-details)
+  - [Prize Pool](#prize-pool)
+  - [Stats](#stats)
+- [Puppy Raffle](#puppy-raffle)
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Quickstart](#quickstart)
+    - [Optional Gitpod](#optional-gitpod)
+- [Usage](#usage)
+  - [Testing](#testing)
+    - [Test Coverage](#test-coverage)
+- [Audit Scope Details](#audit-scope-details)
+  - [Compatibilities](#compatibilities)
+- [Roles](#roles)
+- [Known Issues](#known-issues)
+
+[//]: # (contest-details-open)
 
 # Contest Details
 
@@ -29,21 +45,14 @@ This project is to enter a raffle to win a cute dog NFT. The protocol should do 
 4. Every X seconds, the raffle will be able to draw a winner and be minted a random puppy
 5. The owner of the protocol will set a feeAddress to take a cut of the `value`, and the rest of the funds will be sent to the winner of the puppy.
 
-- [Contest Details](#contest-details)
-  - [Prize Pool](#prize-pool)
-  - [Stats](#stats)
-- [Puppy Raffle](#puppy-raffle)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-    - [Optional Gitpod](#optional-gitpod)
-- [Usage](#usage)
-  - [Testing](#testing)
-    - [Test Coverage](#test-coverage)
-- [Audit Scope Details](#audit-scope-details)
-  - [Compatibilities](#compatibilities)
-- [Roles](#roles)
-- [Known Issues](#known-issues)
+## Roles
+
+Owner - Deployer of the protocol, has the power to change the wallet address to which fees are sent through the `changeFeeAddress` function.
+Player - Participant of the raffle, has the power to enter the raffle with the `enterRaffle` function and refund value through `refund` function.
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
 
 # Getting Started
 
@@ -88,6 +97,10 @@ and for coverage based testing:
 forge coverage --report debug
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (scope-open)
+
 # Audit Scope Details
 
 - Commit Hash: 22bbbb2c47f3f2b78c1b134590baf41383fd354f
@@ -103,11 +116,12 @@ forge coverage --report debug
 - Solc Version: 0.7.6
 - Chain(s) to deploy contract to: Ethereum
 
-# Roles
+[//]: # (scope-close)
 
-Owner - Deployer of the protocol, has the power to change the wallet address to which fees are sent through the `changeFeeAddress` function.
-Player - Participant of the raffle, has the power to enter the raffle with the `enterRaffle` function and refund value through `refund` function.
+[//]: # (known-issues-open)
 
 # Known Issues
 
 None
+
+[//]: # (known-issues-close)
