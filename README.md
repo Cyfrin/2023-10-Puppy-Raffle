@@ -16,8 +16,6 @@
 - [Roles](#roles)
 - [Known Issues](#known-issues)
 
-[//]: # (contest-details-open)
-
 # Contest Details
 
 ### Prize Pool
@@ -33,6 +31,8 @@
 
 - nSLOC: 143
 - Complexity Score: 111
+
+[//]: # (contest-details-open)
 
 # Puppy Raffle
 
