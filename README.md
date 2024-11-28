@@ -1,38 +1,4 @@
-# First Flight #2: Puppy Raffle
-
-- [Contest Details](#contest-details)
-  - [Prize Pool](#prize-pool)
-  - [Stats](#stats)
-- [Puppy Raffle](#puppy-raffle)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-    - [Optional Gitpod](#optional-gitpod)
-- [Usage](#usage)
-  - [Testing](#testing)
-    - [Test Coverage](#test-coverage)
-- [Audit Scope Details](#audit-scope-details)
-  - [Compatibilities](#compatibilities)
-- [Roles](#roles)
-- [Known Issues](#known-issues)
-
-# Contest Details
-
-### Prize Pool
-
-- High - 100xp
-- Medium - 20xp
-- Low - 2xp
-
-- Starts: Noon UTC Wednesday, Oct 25 2023
-- Ends: Noon UTC Wednesday, Nov 01 2023
-
-## Stats
-
-- nSLOC: 143
-- Complexity Score: 111
-
-[//]: # (contest-details-open)
+### First Flight #2: Puppy Raffle
 
 # Puppy Raffle
 
@@ -49,10 +15,6 @@ This project is to enter a raffle to win a cute dog NFT. The protocol should do 
 
 Owner - Deployer of the protocol, has the power to change the wallet address to which fees are sent through the `changeFeeAddress` function.
 Player - Participant of the raffle, has the power to enter the raffle with the `enterRaffle` function and refund value through `refund` function.
-
-[//]: # (contest-details-close)
-
-[//]: # (getting-started-open)
 
 # Getting Started
 
@@ -103,7 +65,6 @@ forge coverage --report debug
 
 # Audit Scope Details
 
-- Commit Hash: 22bbbb2c47f3f2b78c1b134590baf41383fd354f
 - In Scope:
 
 ```
@@ -116,12 +77,6 @@ forge coverage --report debug
 - Solc Version: 0.7.6
 - Chain(s) to deploy contract to: Ethereum
 
-[//]: # (scope-close)
-
-[//]: # (known-issues-open)
-
 # Known Issues
 
 None
-
-[//]: # (known-issues-close)
